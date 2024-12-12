@@ -1,0 +1,171 @@
+body{
+    background-color: black;
+}
+.headline-top{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 4px;
+    font-family: sans-serif;
+    height:60px;
+}
+.image1{
+    position:relative;
+    height: 850px;
+    background: url(bmw-m5-manhart-v8-f90-5k-q7-3840x2160.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.builtown-m5{
+    position: relative;
+    left: 50px;
+    top: 600px;
+    border-radius: 10px;
+    background-color: rgba(91, 91, 91, 0.563);
+    height: 200px;
+    width: 270px;
+}
+.explore-box{
+    top: 100px;
+    height: 500px;
+    position:absolute;
+    width: 1000px;
+    left: 200px;
+    background: transparent;
+}
+.booking-box{
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.671);
+    position: relative;
+    left: 1150px;
+    top: 50px;
+}
+.m5-f90{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    font-size: 40px;
+    color:rgba(255, 255, 255, 0.771);
+    font-family: monospace;
+}
+.features-text{
+    color: rgb(131, 131, 131);
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    font-family: monospace;
+    font-size: 40px;
+}
+.features-list{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 90px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+.bookingbutton-m5{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: rgb(0, 123, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    height: 50px;
+    border: none;
+    width: 200px;
+    margin-top: 330px;
+    margin-left: 50px;
+    transition: 0.15s;
+}
+.bookingbutton-m5:hover{
+    transition: 0.15s;
+    opacity: 0.7;
+}
+.bookingbutton-m5:active{
+    color: black;
+    transition: 0.15s;
+    opacity: 0.5;
+}
+.heading-text{
+    color: rgba(255, 255, 255, 0.771);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 250px;
+    margin: 0;
+}
+.heading-new{
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.749);
+}
+.image2{
+    position: relative;
+    height: 680px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image : url(1680x756_0_0.jpg);
+}
+.xm-box{
+    position:absolute;
+    background: transparent;
+    width: 450px;
+    left: 60px;
+    color: rgba(71, 71, 71, 0.901);
+}
+.the-xm{
+    position: absolute;
+    font-weight: bold;
+    font-size: 120px;
+    font-family: monospace;
+}
+.xm-button{
+    cursor: pointer;
+    top: 250px;
+    position: absolute;
+    left: 260px;
+    font-size: 20px;
+    border: none;
+    color:black;
+    background-color: rgb(0, 123, 255);
+    font-family: monospace;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    transition: 0.15s;
+}
+.xm-button:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.15s;
+    opacity: 0.7;
+}
+.xm-button:active{
+    cursor: pointer;
+    color: black;
+    transition: 0.15s;
+    opacity: 0.5;
+}
+.xmfeatures-box{
+    border-radius: 10px;
+    position:relative;
+    background-color: rgba(68, 68, 68, 0.733);
+    left: 100px;
+    top: 350px;
+    height: 250px;
+    width: 300px;
+}
+.xm-features{
+    margin-top: 10px;
+    margin-left: 20px;
+    position:absolute;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.image3{
+    height: 850px;
+    background: url(bmw_m3_competition_touring_m_xdrive_m_performance_parts_blue_car_2022_4k_hd_cars.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
