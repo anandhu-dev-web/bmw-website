@@ -21,9 +21,43 @@ body{
     left: 50px;
     top: 600px;
     border-radius: 10px;
-    background-color: rgba(91, 91, 91, 0.563);
+    background-color: rgba(90, 89, 89, 0.707);
     height: 200px;
     width: 270px;
+}
+.mperformance-text{
+    margin-top: 10px;
+    font-weight: bold;
+    position: absolute;
+    font-size: 30px;
+    left: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.specs-list{
+    position: absolute;
+    font-size: 17px;
+    top: 28px;
+    left: 130px;
+}
+.buildown-bmw-m5{
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    top: 125px;
+    left: 30px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+}
+.mperformance-image{
+    width: 150px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
 }
 .explore-box{
     top: 100px;
@@ -149,9 +183,9 @@ body{
 .xmfeatures-box{
     border-radius: 10px;
     position:relative;
-    background-color: rgba(68, 68, 68, 0.733);
+    background-color: rgba(186, 186, 186, 0.733);
     left: 100px;
-    top: 350px;
+    top: 320px;
     height: 250px;
     width: 300px;
 }
@@ -159,15 +193,47 @@ body{
     margin-top: 10px;
     margin-left: 20px;
     position:absolute;
+    color: rgb(255, 0, 0);
+    font-family: monospace;
+    font-size: 35px;
+}
+.xm-features-list{
     color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    font-size: 40px;
+    font-family:arial;
+    top: 35px;
+    position: absolute;
+    font-size: 18px;
 }
 .image3{
     height: 850px;
     background: url(bmw_m3_competition_touring_m_xdrive_m_performance_parts_blue_car_2022_4k_hd_cars.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
+}
+.x4-heading{
+    background-color: rgba(0, 0, 0, 0.69);
+    top: 50px;
+    left: 50px;
+    position: relative;
+    border-radius: 30px;
+    height: 200px;
+    width: 600px;
+}
+.x4-features-box{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 600px;
+    left: 1050px;
+    background-color: rebeccapurple;
+}
+.x4-heading-text{
+    color:rgb(255, 255, 255);
+    margin-top: 10px;
+    left: 20px;
+    position:absolute;
+    font-size: 150px;
 }
 .image4{
     height: 850px;
